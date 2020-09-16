@@ -43,7 +43,7 @@ public class GardenLayout extends Application
 	
 	public void drawGrass()
 	{	
-		Image grass = new Image("Photos\\Grass.jpg",gardenWidth, gardenHeight,false,false);
+		Image grass = new Image("Photos/Grass.jpg",gardenWidth, gardenHeight,false,false);
 		ImageView grassView = new ImageView(grass);
 		grassView.setX(0);
 		grassView.setY(0);
@@ -53,7 +53,7 @@ public class GardenLayout extends Application
 	
 	public void drawFlower()
 	{	
-		Image flower = new Image("Photos\\Flower1.png",70, 70,false,false);
+		Image flower = new Image("Photos/Flower1.png",70, 70,false,false);
 		flowerView = new ImageView(flower);
 		flowerView.setX(20);
 		flowerView.setY(20);
